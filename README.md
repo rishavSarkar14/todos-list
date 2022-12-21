@@ -1,4 +1,4 @@
-#My first React App (Learning)
+# My first React App (Learning Step)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
