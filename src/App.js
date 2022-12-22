@@ -10,7 +10,7 @@ function App() {
     console.log("I am onDelete", todo);
     setTodos(todos.filter((e)=>{
       return e!==todo;
-    }))
+    }));
   }
   
   const addTodo = (title, desc)=>{
@@ -21,8 +21,9 @@ function App() {
       title: title,
       desc: desc,
     }
+    setTodos([...todos, myTodo]);
+    console.log(myTodo);
   }
-  setTodos([...todos, myTodo]);
   const [todos, setTodos] = useState([
     {
       sno: 1,
